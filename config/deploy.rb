@@ -11,8 +11,8 @@ require 'mina/git'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :domain, '107.150.27.136'
-set :deploy_to, '/var/crack'
-set :repository, ''
+set :deploy_to, '/var/crack3'
+set :repository, 'ssh://git.kinsey.pw/var/crack2/crack2.git'
 set :branch, 'master'
 set :term_mode, nil
 # For system-wide RVM install.
