@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  downloadtimes: 1
+  des: MyString
+  type: 
+  pic: MyString
+  mb: MyString
+  show: 1
+  company: MyString
+  lang: MyString
+  addition: MyString
+
+two:
+  name: MyString
+  downloadtimes: 1
+  des: MyString
+  type: 
+  pic: MyString
+  mb: MyString
+  show: 1
+  company: MyString
+  lang: MyString
+  addition: MyString

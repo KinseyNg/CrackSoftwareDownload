@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  emailaddress: MyString
+  downloadid: 1
+  ip: MyString
+
+two:
+  emailaddress: MyString
+  downloadid: 1
+  ip: MyString

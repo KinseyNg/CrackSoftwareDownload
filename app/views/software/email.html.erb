@@ -1,0 +1,22 @@
+<div>
+  <div class="  columns"> <img src="http://placehold.it/1200x200&text=Banner"></div>
+  <div class="large-offset-2 large-10 columns"><H5>You are downloading"<%=@name%>" form <%=@location%> mirror</H5>
+  <h6>Please enter your E-Mail, we will send the download link to your mailbox. Thank you!</h6>
+  </div>
+  <p>
+   <br>
+    <br>
+  </p>
+  <%= form_tag do %>
+    <div class="row">
+      <div class="large-8 columns large-offset-2">
+        <label>Enter your email here :
+          <input type="text" placeholder="Email Address" name="email"/>
+        </label>
+      </div>
+    </div>
+    <div class=" large-2 columns large-offset-5">  <input type="submit" value="Send" class="button postfix"></div>
+
+  <% end %>
+  <div class="  columns"> <img src="http://placehold.it/1200x200&text=Banner"></div>
+</div>
