@@ -30,7 +30,8 @@ gem "foundation-rails"
 gem 'slim-rails'
 gem 'mail'
 gem 'email_verifier'
-gem 'mina'
+#gem 'mina'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

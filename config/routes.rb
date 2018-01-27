@@ -16,9 +16,13 @@ Crack::Application.routes.draw do
   root 'software#index'
 
   get '/detail/:detail' =>'software#detail'
+  get '/detail/:type/:detail' =>'software#detail'
   get '/download/:location/:id'=>'software#wait'
   get '/download/email' =>'software#email'
   post '/software/email'   =>'software#sent'
+
+  get '/sitemap/:num/:end' => 'software#sitemap'
+ # get '/software/email' =>software#sent
 #  get ''=> 'software#email'
 
  # get '/software/index' =>'software#index'
